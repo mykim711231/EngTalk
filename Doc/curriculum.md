@@ -60,16 +60,16 @@
 | 08 | [수하물이 도착하지 않았다고 신고하기](Markdown/vol4/vol4_08_report_a_delayed_bag.md) | [명세서의 예상 밖 요금 확인하기](Markdown/vol5/vol5_08_check_an_unexpected_utility_bill.md) | [받은 선물에 감사를 표현하기](Markdown/vol6/vol6_08_express_thanks_for_a_gift.md) |
 | 09 | [공항에서 숙소까지 이동편 찾기](Markdown/vol4/vol4_09_find_airport_transport_to_hotel.md) | [인터넷 연결 문제를 설명하기](Markdown/vol5/vol5_09_report_an_internet_connection_problem.md) | [상대의 성과를 축하하기](Markdown/vol6/vol6_09_congratulate_someone_on_an_achievement.md) |
 | 10 | [호텔 체크인과 보증금 문의하기](Markdown/vol4/vol4_10_check_in_and_ask_about_a_deposit.md) | [수도 누수와 방문 수리 요청하기](Markdown/vol5/vol5_10_request_a_repair_for_a_water_leak.md) | [힘든 일을 겪은 사람을 위로하기](Markdown/vol6/vol6_10_comfort_someone_going_through_a_hard_time.md) |
-| 11 | [객실 상태 문제로 방 변경 요청하기](Markdown/vol4/vol4_11_request_a_different_hotel_room.md) | [난방이 안 되는 시간대 알려주기](Markdown/vol5/vol5_11_report_when_the_heating_stops_working.md) | 고민을 듣고 원하는 도움 묻기 |
-| 12 | [체크아웃 시간과 짐 보관 부탁하기](Markdown/vol4/vol4_12_ask_checkout_and_luggage_storage.md) | [이웃에게 소음을 줄여 달라고 하기](Markdown/vol5/vol5_12_ask_a_neighbor_to_reduce_noise.md) | 선택을 존중하며 조언하기 |
-| 13 | [관광지 입장권과 운영 시간 확인하기](Markdown/vol4/vol4_13_check_attraction_tickets_and_hours.md) | [재활용과 공용공간 이용 규칙 묻기](Markdown/vol5/vol5_13_ask_about_recycling_and_shared_space_rules.md) | 상대와 생각이 다를 때 표현하기 |
-| 14 | [안내소에서 반나절 일정 추천받기](Markdown/vol4/vol4_14_ask_for_a_half_day_itinerary.md) | [학교에 아이의 결석을 알리기](Markdown/vol5/vol5_14_report_a_child_absence_to_school.md) | 불편한 주제에서 대화의 경계 정하기 |
-| 15 | [가이드 투어의 집결지와 준비물 묻기](Markdown/vol4/vol4_15_ask_tour_meeting_point_and_supplies.md) | [학부모 면담 일정을 조율하기](Markdown/vol5/vol5_15_schedule_a_parent_teacher_meeting.md) | 실수를 인정하고 관계 회복하기 |
-| 16 | [렌터카 인수와 반납 조건 확인하기](Markdown/vol4/vol4_16_check_rental_car_pickup_and_return.md) | [병원 예약과 방문 목적 알리기](Markdown/vol5/vol5_16_make_a_doctor_appointment_and_state_the_reason.md) | 부탁하기 어려운 도움 요청하기 |
-| 17 | [관광지에서 사진 촬영 허용 여부 묻기](Markdown/vol4/vol4_17_ask_about_photo_permission.md) | [접수처에서 보험과 서류 문의하기](Markdown/vol5/vol5_17_ask_about_insurance_and_forms_at_reception.md) | 작은 호의를 제안하고 받아들이기 |
-| 18 | [날씨로 취소된 일정의 대안 찾기](Markdown/vol4/vol4_18_find_alternatives_after_weather_cancellation.md) | [관공서에서 신청 상태 확인하기](Markdown/vol5/vol5_18_check_the_status_of_a_government_application.md) | 갈등이 생긴 모임의 규칙 합의하기 |
-| 19 | [여행 중 여권을 잃어버렸다고 알리기](Markdown/vol4/vol4_19_report_a_lost_passport_while_traveling.md) | [반려동물의 진료 일정을 잡기](Markdown/vol5/vol5_19_schedule_a_veterinary_appointment.md) | 함께 준비한 행사를 마무리하기 |
-| 20 | [여행을 마치고 경험을 이야기하기](Markdown/vol4/vol4_20_tell_someone_about_your_trip.md) | [이사 일정과 짐 인계 조율하기](Markdown/vol5/vol5_20_coordinate_moving_day_and_handover.md) | 헤어진 뒤 연락을 이어 가기 |
+| 11 | [객실 상태 문제로 방 변경 요청하기](Markdown/vol4/vol4_11_request_a_different_hotel_room.md) | [난방이 안 되는 시간대 알려주기](Markdown/vol5/vol5_11_report_when_the_heating_stops_working.md) | [고민을 듣고 원하는 도움 묻기](Markdown/vol6/vol6_11_listen_to_a_concern_and_ask_what_help_they_want.md) |
+| 12 | [체크아웃 시간과 짐 보관 부탁하기](Markdown/vol4/vol4_12_ask_checkout_and_luggage_storage.md) | [이웃에게 소음을 줄여 달라고 하기](Markdown/vol5/vol5_12_ask_a_neighbor_to_reduce_noise.md) | [선택을 존중하며 조언하기](Markdown/vol6/vol6_12_give_advice_while_respecting_their_choice.md) |
+| 13 | [관광지 입장권과 운영 시간 확인하기](Markdown/vol4/vol4_13_check_attraction_tickets_and_hours.md) | [재활용과 공용공간 이용 규칙 묻기](Markdown/vol5/vol5_13_ask_about_recycling_and_shared_space_rules.md) | [상대와 생각이 다를 때 표현하기](Markdown/vol6/vol6_13_express_disagreement_respectfully.md) |
+| 14 | [안내소에서 반나절 일정 추천받기](Markdown/vol4/vol4_14_ask_for_a_half_day_itinerary.md) | [학교에 아이의 결석을 알리기](Markdown/vol5/vol5_14_report_a_child_absence_to_school.md) | [불편한 주제에서 대화의 경계 정하기](Markdown/vol6/vol6_14_set_boundaries_on_an_uncomfortable_topic.md) |
+| 15 | [가이드 투어의 집결지와 준비물 묻기](Markdown/vol4/vol4_15_ask_tour_meeting_point_and_supplies.md) | [학부모 면담 일정을 조율하기](Markdown/vol5/vol5_15_schedule_a_parent_teacher_meeting.md) | [실수를 인정하고 관계 회복하기](Markdown/vol6/vol6_15_admit_a_mistake_and_repair_the_relationship.md) |
+| 16 | [렌터카 인수와 반납 조건 확인하기](Markdown/vol4/vol4_16_check_rental_car_pickup_and_return.md) | [병원 예약과 방문 목적 알리기](Markdown/vol5/vol5_16_make_a_doctor_appointment_and_state_the_reason.md) | [부탁하기 어려운 도움 요청하기](Markdown/vol6/vol6_16_ask_for_a_difficult_favor.md) |
+| 17 | [관광지에서 사진 촬영 허용 여부 묻기](Markdown/vol4/vol4_17_ask_about_photo_permission.md) | [접수처에서 보험과 서류 문의하기](Markdown/vol5/vol5_17_ask_about_insurance_and_forms_at_reception.md) | [작은 호의를 제안하고 받아들이기](Markdown/vol6/vol6_17_offer_and_accept_a_small_favor.md) |
+| 18 | [날씨로 취소된 일정의 대안 찾기](Markdown/vol4/vol4_18_find_alternatives_after_weather_cancellation.md) | [관공서에서 신청 상태 확인하기](Markdown/vol5/vol5_18_check_the_status_of_a_government_application.md) | [갈등이 생긴 모임의 규칙 합의하기](Markdown/vol6/vol6_18_agree_on_group_rules_after_a_conflict.md) |
+| 19 | [여행 중 여권을 잃어버렸다고 알리기](Markdown/vol4/vol4_19_report_a_lost_passport_while_traveling.md) | [반려동물의 진료 일정을 잡기](Markdown/vol5/vol5_19_schedule_a_veterinary_appointment.md) | [함께 준비한 행사를 마무리하기](Markdown/vol6/vol6_19_wrap_up_an_event_you_prepared_together.md) |
+| 20 | [여행을 마치고 경험을 이야기하기](Markdown/vol4/vol4_20_tell_someone_about_your_trip.md) | [이사 일정과 짐 인계 조율하기](Markdown/vol5/vol5_20_coordinate_moving_day_and_handover.md) | [헤어진 뒤 연락을 이어 가기](Markdown/vol6/vol6_20_stay_in_touch_after_saying_goodbye.md) |
 
 ## 7~9권 · 직장과 실무 영어
 
