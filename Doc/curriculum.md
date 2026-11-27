@@ -55,11 +55,11 @@
 | 03 | [보안 검색대에서 안내 확인하기](Markdown/vol4/vol4_03_clarify_airport_security_instructions.md) | [입주일과 계약 기간 조율하기](Markdown/vol5/vol5_03_coordinate_move_in_date_and_lease_term.md) | 이웃에게 먼저 인사하기 |
 | 04 | [탑승구 변경 방송 확인하기](Markdown/vol4/vol4_04_confirm_gate_change_announcement.md) | [입주 전 수리가 필요한 곳 말하기](Markdown/vol5/vol5_04_point_out_repairs_before_move_in.md) | 새 모임에 가입하고 활동 묻기 |
 | 05 | [연결편을 놓쳐 다시 예약하기](Markdown/vol4/vol4_05_rebook_after_missing_a_connection.md) | [열쇠와 출입 방법 확인하기](Markdown/vol5/vol5_05_ask_about_keys_and_building_access.md) | 공동 취미를 찾고 계획 세우기 |
-| 06 | [비행기에서 좌석이나 담요 요청하기](Markdown/vol4/vol4_06_request_seat_or_blanket_in_flight.md) | 전기와 인터넷 개통 문의하기 | 초대를 정중히 받아들이기 |
-| 07 | [입국 심사에서 방문 목적 답하기](Markdown/vol4/vol4_07_answer_purpose_of_visit_at_immigration.md) | 통신 요금제와 데이터 옵션 비교하기 | 다른 일정 때문에 초대를 거절하기 |
-| 08 | [수하물이 도착하지 않았다고 신고하기](Markdown/vol4/vol4_08_report_a_delayed_bag.md) | 명세서의 예상 밖 요금 확인하기 | 받은 선물에 감사를 표현하기 |
-| 09 | [공항에서 숙소까지 이동편 찾기](Markdown/vol4/vol4_09_find_airport_transport_to_hotel.md) | 인터넷 연결 문제를 설명하기 | 상대의 성과를 축하하기 |
-| 10 | [호텔 체크인과 보증금 문의하기](Markdown/vol4/vol4_10_check_in_and_ask_about_a_deposit.md) | 수도 누수와 방문 수리 요청하기 | 힘든 일을 겪은 사람을 위로하기 |
+| 06 | [비행기에서 좌석이나 담요 요청하기](Markdown/vol4/vol4_06_request_seat_or_blanket_in_flight.md) | [전기와 인터넷 개통 문의하기](Markdown/vol5/vol5_06_set_up_electricity_and_internet.md) | 초대를 정중히 받아들이기 |
+| 07 | [입국 심사에서 방문 목적 답하기](Markdown/vol4/vol4_07_answer_purpose_of_visit_at_immigration.md) | [통신 요금제와 데이터 옵션 비교하기](Markdown/vol5/vol5_07_compare_phone_plans_and_data_options.md) | 다른 일정 때문에 초대를 거절하기 |
+| 08 | [수하물이 도착하지 않았다고 신고하기](Markdown/vol4/vol4_08_report_a_delayed_bag.md) | [명세서의 예상 밖 요금 확인하기](Markdown/vol5/vol5_08_check_an_unexpected_utility_bill.md) | 받은 선물에 감사를 표현하기 |
+| 09 | [공항에서 숙소까지 이동편 찾기](Markdown/vol4/vol4_09_find_airport_transport_to_hotel.md) | [인터넷 연결 문제를 설명하기](Markdown/vol5/vol5_09_report_an_internet_connection_problem.md) | 상대의 성과를 축하하기 |
+| 10 | [호텔 체크인과 보증금 문의하기](Markdown/vol4/vol4_10_check_in_and_ask_about_a_deposit.md) | [수도 누수와 방문 수리 요청하기](Markdown/vol5/vol5_10_request_a_repair_for_a_water_leak.md) | 힘든 일을 겪은 사람을 위로하기 |
 | 11 | [객실 상태 문제로 방 변경 요청하기](Markdown/vol4/vol4_11_request_a_different_hotel_room.md) | 난방이 안 되는 시간대 알려주기 | 고민을 듣고 원하는 도움 묻기 |
 | 12 | [체크아웃 시간과 짐 보관 부탁하기](Markdown/vol4/vol4_12_ask_checkout_and_luggage_storage.md) | 이웃에게 소음을 줄여 달라고 하기 | 선택을 존중하며 조언하기 |
 | 13 | [관광지 입장권과 운영 시간 확인하기](Markdown/vol4/vol4_13_check_attraction_tickets_and_hours.md) | 재활용과 공용공간 이용 규칙 묻기 | 상대와 생각이 다를 때 표현하기 |
