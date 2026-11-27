@@ -50,11 +50,11 @@
 
 | 과 | 4권 해외여행 | 5권 생활 정착과 서비스 | 6권 관계와 사회생활 |
 |---|---|---|---|
-| 01 | [항공권의 여정과 조건 확인하기](Markdown/vol4/vol4_01_check_flight_itinerary_and_fare_terms.md) | 집을 보러 갈 시간 잡기 | 파티에서 서로 소개하기 |
-| 02 | [공항에서 짐을 부치기](Markdown/vol4/vol4_02_check_a_bag_at_the_airport.md) | 임대료와 포함 비용 확인하기 | 직장 밖 모임에서 잡담하기 |
-| 03 | [보안 검색대에서 안내 확인하기](Markdown/vol4/vol4_03_clarify_airport_security_instructions.md) | 입주일과 계약 기간 조율하기 | 이웃에게 먼저 인사하기 |
-| 04 | [탑승구 변경 방송 확인하기](Markdown/vol4/vol4_04_confirm_gate_change_announcement.md) | 입주 전 수리가 필요한 곳 말하기 | 새 모임에 가입하고 활동 묻기 |
-| 05 | [연결편을 놓쳐 다시 예약하기](Markdown/vol4/vol4_05_rebook_after_missing_a_connection.md) | 열쇠와 출입 방법 확인하기 | 공동 취미를 찾고 계획 세우기 |
+| 01 | [항공권의 여정과 조건 확인하기](Markdown/vol4/vol4_01_check_flight_itinerary_and_fare_terms.md) | [집을 보러 갈 시간 잡기](Markdown/vol5/vol5_01_schedule_an_apartment_viewing.md) | 파티에서 서로 소개하기 |
+| 02 | [공항에서 짐을 부치기](Markdown/vol4/vol4_02_check_a_bag_at_the_airport.md) | [임대료와 포함 비용 확인하기](Markdown/vol5/vol5_02_ask_about_rent_and_included_costs.md) | 직장 밖 모임에서 잡담하기 |
+| 03 | [보안 검색대에서 안내 확인하기](Markdown/vol4/vol4_03_clarify_airport_security_instructions.md) | [입주일과 계약 기간 조율하기](Markdown/vol5/vol5_03_coordinate_move_in_date_and_lease_term.md) | 이웃에게 먼저 인사하기 |
+| 04 | [탑승구 변경 방송 확인하기](Markdown/vol4/vol4_04_confirm_gate_change_announcement.md) | [입주 전 수리가 필요한 곳 말하기](Markdown/vol5/vol5_04_point_out_repairs_before_move_in.md) | 새 모임에 가입하고 활동 묻기 |
+| 05 | [연결편을 놓쳐 다시 예약하기](Markdown/vol4/vol4_05_rebook_after_missing_a_connection.md) | [열쇠와 출입 방법 확인하기](Markdown/vol5/vol5_05_ask_about_keys_and_building_access.md) | 공동 취미를 찾고 계획 세우기 |
 | 06 | [비행기에서 좌석이나 담요 요청하기](Markdown/vol4/vol4_06_request_seat_or_blanket_in_flight.md) | 전기와 인터넷 개통 문의하기 | 초대를 정중히 받아들이기 |
 | 07 | [입국 심사에서 방문 목적 답하기](Markdown/vol4/vol4_07_answer_purpose_of_visit_at_immigration.md) | 통신 요금제와 데이터 옵션 비교하기 | 다른 일정 때문에 초대를 거절하기 |
 | 08 | [수하물이 도착하지 않았다고 신고하기](Markdown/vol4/vol4_08_report_a_delayed_bag.md) | 명세서의 예상 밖 요금 확인하기 | 받은 선물에 감사를 표현하기 |
