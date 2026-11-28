@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { englishVoices } from '../lib/tts';
 import { useProgressStore } from '../stores/useProgressStore';
+import { useReviewStore } from '../stores/useReviewStore';
 import { useSettingsStore } from '../stores/useSettingsStore';
 
 export default function SettingsPage() {
@@ -18,7 +19,8 @@ export default function SettingsPage() {
 
   const reset = () => {
     if (!window.confirm('학습 진도를 모두 지울까요?')) return;
-    useProgressStore.setState({ done: {}, days: {}, last: undefined });
+    useProgressStore.setState({ done: {}, dailyDone: {}, mastered: {}, days: {}, last: undefined });
+    useReviewStore.getState().clear();
   };
 
   return (

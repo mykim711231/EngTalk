@@ -13,6 +13,7 @@ const PATHS: Record<string, string> = {
   flame: 'M12 22c4 0 7-3 7-7 0-3-2-5-3-7-1 2-2 3-3 3 0-3-1-6-4-8 0 4-4 6-4 12 0 4 3 7 7 7z',
   help: 'M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01',
   headphones: 'M3 18v-6a9 9 0 0 1 18 0v6M3 18a2 2 0 0 0 2 2h1v-7H5a2 2 0 0 0-2 2zM21 18a2 2 0 0 1-2 2h-1v-7h1a2 2 0 0 1 2 2z',
+  repeat: 'M17 2l4 4-4 4M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4M21 13v2a3 3 0 0 1-3 3H3',
 };
 
 export default function Icon({ name, size = 20, className = '' }: { name: string; size?: number; className?: string }) {

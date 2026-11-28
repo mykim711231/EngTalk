@@ -6,6 +6,8 @@ import HomePage from './pages/HomePage';
 import PathPage from './pages/PathPage';
 import LessonPage from './pages/LessonPage';
 import DailyPage from './pages/DailyPage';
+import MasteryPage from './pages/MasteryPage';
+import ReviewPage from './pages/ReviewPage';
 import SettingsPage from './pages/SettingsPage';
 import { useSettingsStore } from './stores/useSettingsStore';
 
@@ -22,6 +24,8 @@ export default function App() {
         <Route path="/path" element={<PathPage />} />
         <Route path="/lesson/:id" element={<LessonPage />} />
         <Route path="/daily" element={<DailyPage />} />
+        <Route path="/mastery" element={<MasteryPage />} />
+        <Route path="/review" element={<ReviewPage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

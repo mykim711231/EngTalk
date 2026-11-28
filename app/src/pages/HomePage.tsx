@@ -2,12 +2,14 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { loadMeta } from '../lib/contentLoader';
 import { streak, useProgressStore } from '../stores/useProgressStore';
+import { useReviewStore } from '../stores/useReviewStore';
 import type { LessonMeta } from '../types/lesson';
 import Icon from '../components/Icon';
 
 export default function HomePage() {
   const [meta, setMeta] = useState<LessonMeta[]>([]);
   const prog = useProgressStore();
+  const reviewCount = useReviewStore((s) => s.items.length);
   useEffect(() => { void loadMeta().then(setMeta); }, []);
   const next = useMemo(() => meta.find((m) => !prog.done[m.id]) ?? meta.find((m) => m.id === prog.last) ?? meta[0], [meta, prog.done, prog.last]);
   const done = Object.keys(prog.done).length;
@@ -62,6 +64,26 @@ export default function HomePage() {
           <Icon name="chevronRight" size={18} className="text-slate-400" />
         </Link>
       )}
+
+      {next && (
+        <Link to={`/mastery?id=${next.id}`} className="card flex items-center gap-3">
+          <span className="grid h-11 w-11 place-items-center rounded-full bg-brand-50 text-brand"><Icon name="target" size={22} /></span>
+          <div className="min-w-0 flex-1">
+            <p className="text-xs text-slate-500">심화 학습</p>
+            <p className="font-semibold">듣고 이해 → 떠올리기 → 따라 말하기</p>
+          </div>
+          <Icon name="chevronRight" size={18} className="text-slate-400" />
+        </Link>
+      )}
+
+      <Link to="/review" className="card flex items-center gap-3">
+        <span className="grid h-11 w-11 place-items-center rounded-full bg-brand-50 text-brand"><Icon name="repeat" size={22} /></span>
+        <div className="min-w-0 flex-1">
+          <p className="text-xs text-slate-500">복습</p>
+          <p className="font-semibold">{reviewCount ? `틀린 문장 ${reviewCount}개` : '틀린 문장이 생기면 여기에 모여요'}</p>
+        </div>
+        <Icon name="chevronRight" size={18} className="text-slate-400" />
+      </Link>
 
       <section className="card space-y-2">
         <div className="flex items-baseline justify-between">
