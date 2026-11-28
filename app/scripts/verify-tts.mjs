@@ -9,7 +9,8 @@ const TTS_DIR = join(HERE, '..', 'public', 'tts');
 const MANIFEST = join(DATA, 'en-tts-manifest.json');
 
 const arg = process.argv.indexOf('--vol');
-const vol = arg >= 0 ? Number(process.argv[arg + 1]) : 1;
+const positional = process.argv.slice(2).find((a) => /^\d+$/.test(a));
+const vol = arg >= 0 ? Number(process.argv[arg + 1]) : positional ? Number(positional) : 1;
 const normalize = (s) => s.replace(/\s+/g, ' ').trim();
 const clean = (s) => normalize(s.replace(/\s*\/\s*/g, ' '));
 const hashOf = (s) => createHash('sha1').update(normalize(s)).digest('hex').slice(0, 12);

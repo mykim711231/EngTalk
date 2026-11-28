@@ -34,6 +34,6 @@ export const useSettingsStore = create<S>()(
       setFontSize: (fontSize) => set({ fontSize }),
       setRate: (rate) => set({ rate }),
     }),
-    { name: 'engtalk-settings' },
+    { name: 'engspeak-settings' },
   ),
 );

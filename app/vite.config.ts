@@ -3,19 +3,19 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/EngTalk/',
+  base: '/EngSpeak/',
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png'],
       manifest: {
-        id: '/EngTalk/',
-        name: 'EngTalk',
-        short_name: 'EngTalk',
+        id: '/EngSpeak/',
+        name: 'EngSpeak',
+        short_name: 'EngSpeak',
         lang: 'ko',
-        start_url: '/EngTalk/',
-        scope: '/EngTalk/',
+        start_url: '/EngSpeak/',
+        scope: '/EngSpeak/',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#047857',
@@ -33,7 +33,7 @@ export default defineConfig({
         runtimeCaching: [{
           urlPattern: /\/tts\/[0-9a-f]+\.mp3$/,
           handler: 'CacheFirst',
-          options: { cacheName: 'engtalk-tts', rangeRequests: true, expiration: { maxEntries: 1200 } },
+          options: { cacheName: 'engspeak-tts', rangeRequests: true, expiration: { maxEntries: 1200 } },
         }],
       },
     }),

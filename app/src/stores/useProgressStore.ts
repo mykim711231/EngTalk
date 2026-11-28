@@ -30,7 +30,7 @@ export const useProgressStore = create<P>()(
       markMastered: (id, score) => set((s) => ({ mastered: { ...s.mastered, [id]: { score, at: today() } }, done: { ...s.done, [id]: true }, days: { ...s.days, [today()]: true }, last: id })),
       setLast: (last) => set({ last }),
     }),
-    { name: 'engtalk-progress' },
+    { name: 'engspeak-progress' },
   ),
 );
 

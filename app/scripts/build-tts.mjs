@@ -11,7 +11,8 @@ const MANIFEST = join(DATA, 'en-tts-manifest.json');
 const VOICE = 'en-US-AriaNeural';
 
 const arg = process.argv.indexOf('--vol');
-const vol = arg >= 0 ? Number(process.argv[arg + 1]) : 1;
+const positional = process.argv.slice(2).find((a) => /^\d+$/.test(a));
+const vol = arg >= 0 ? Number(process.argv[arg + 1]) : positional ? Number(positional) : 1;
 const limitArg = process.argv.indexOf('--limit');
 const limit = limitArg >= 0 ? Number(process.argv[limitArg + 1]) : Infinity;
 

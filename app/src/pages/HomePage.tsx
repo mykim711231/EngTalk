@@ -102,7 +102,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <p className="text-center text-xs text-slate-400">EngTalk · 12권 240과</p>
+      <p className="text-center text-xs text-slate-400">EngSpeak · 12권 240과</p>
     </main>
   );
 }

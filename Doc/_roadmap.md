@@ -1,4 +1,4 @@
-# EngTalk 남은 교재 작성 순서
+# EngSpeak 남은 교재 작성 순서
 
 기준선: `73ff2e5 Add vol1-4 conversation lessons and grammar guide`
 최근 배치: vol12 01~20 (20과) · 전권 완료
@@ -70,8 +70,8 @@
 ## 앱 구현 시점
 
 - 전권 240과의 교재 JSON 변환을 완료했습니다: `app/scripts/build-content.mjs`, `app/scripts/verify-content.mjs` → `app/public/data`.
-- EngTalk PWA 기본 화면(홈·경로·레슨·설정), 기기 영어 음성, 오프라인 데이터 저장을 구현했습니다: https://mykim711231.github.io/EngTalk/
+- EngSpeak PWA 기본 화면(홈·경로·레슨·설정), 기기 영어 음성, 오프라인 데이터 저장을 구현했습니다: https://mykim711231.github.io/EngSpeak/
 - 10분 데일리, 심화 학습, 복습을 구현했습니다.
 - 녹음 음성 파이프라인과 Vol.1 음원 681개를 생성했습니다. Vol.2~12는 `npm run build:tts -- --vol N`으로 순차 생성합니다.
 - 다음은 Vol.2~12 음원 생성과 오프라인 음원 저장·백업입니다.
-- 앱을 만들 때 EngTalk 저장 키와 `/EngTalk/` 배포 경로를 ChinTalk·ChinSpeak와 분리합니다.
+- 앱을 만들 때 EngSpeak 저장 키와 `/EngSpeak/` 배포 경로를 ChinTalk·ChinSpeak와 분리합니다.

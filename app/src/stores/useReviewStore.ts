@@ -21,6 +21,6 @@ export const useReviewStore = create<S>()(
       remove: (en) => set((s) => ({ items: s.items.filter((x) => x.en !== en) })),
       clear: () => set({ items: [] }),
     }),
-    { name: 'engtalk-review' },
+    { name: 'engspeak-review' },
   ),
 );

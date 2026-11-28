@@ -80,7 +80,7 @@ export default function SettingsPage() {
       </section>
 
       <div className="text-center text-xs text-slate-400">
-        <p>EngTalk · 12권 240과</p>
+        <p>EngSpeak · 12권 240과</p>
         <Link to="/path" className="text-brand underline">학습 경로로</Link>
       </div>
     </main>
