@@ -9,6 +9,8 @@ type S = {
   showChunks: boolean;
   fontSize: FontSize;
   rate: number;
+  voiceMode: 'device' | 'recorded';
+  setVoiceMode: (v: 'device' | 'recorded') => void;
   voiceUri: string | null;
   setVoiceUri: (v: string | null) => void;
   toggle: (k: 'showEn' | 'showKo' | 'showChunks') => void;
@@ -24,6 +26,8 @@ export const useSettingsStore = create<S>()(
       showChunks: true,
       fontSize: 'md',
       rate: 1,
+      voiceMode: 'device',
+      setVoiceMode: (voiceMode) => set({ voiceMode }),
       voiceUri: null,
       setVoiceUri: (voiceUri) => set({ voiceUri }),
       toggle: (k) => set((s) => ({ [k]: !s[k] }) as Partial<S>),

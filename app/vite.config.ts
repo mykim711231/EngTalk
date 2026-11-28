@@ -30,6 +30,11 @@ export default defineConfig({
         cleanupOutdatedCaches: true,
         skipWaiting: true,
         clientsClaim: true,
+        runtimeCaching: [{
+          urlPattern: /\/tts\/[0-9a-f]+\.mp3$/,
+          handler: 'CacheFirst',
+          options: { cacheName: 'engtalk-tts', rangeRequests: true, expiration: { maxEntries: 1200 } },
+        }],
       },
     }),
   ],

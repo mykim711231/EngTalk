@@ -47,6 +47,15 @@ export default function SettingsPage() {
       <section className="card space-y-3">
         <h2 className="font-bold">음성</h2>
         <div className="flex items-center justify-between gap-2">
+          <span className="text-sm">재생 방식</span>
+          <div className="flex gap-1">
+            {([['device', '기기 음성'], ['recorded', '녹음 음성']] as const).map(([v, label]) => (
+              <button key={v} type="button" onClick={() => s.setVoiceMode(v)} className={`rounded-full border px-3 py-1 text-xs font-semibold ${s.voiceMode === v ? 'border-brand bg-brand text-white' : 'border-slate-200 text-slate-600'}`}>{label}</button>
+            ))}
+          </div>
+        </div>
+        <p className="text-xs text-slate-500">녹음 음성은 저장된 음원이 있는 문장만 재생하고, 없으면 기기 음성으로 대체합니다.</p>
+        <div className="flex items-center justify-between gap-2">
           <span className="text-sm">속도</span>
           <div className="flex gap-1">
             {[0.8, 1, 1.2].map((r) => (
