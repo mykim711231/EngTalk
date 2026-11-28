@@ -200,7 +200,7 @@ function parseLesson(vol, file) {
     id,
     vol,
     no: parsed.no,
-    level: Math.ceil(vol / 2),
+    level: Math.min(4, Math.ceil(vol / 3)),
     titleKo: parsed.titleKo,
     titleEn: parsed.titleEn,
     goals: g,
