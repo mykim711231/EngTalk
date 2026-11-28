@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Icon from './Icon';
+import { APP_NAME } from '../types/brand';
 
 export default function TopBar() {
   return (
@@ -8,7 +9,7 @@ export default function TopBar() {
         <span className="grid h-9 w-9 flex-none place-items-center rounded-lg bg-brand text-white text-[9px] font-extrabold leading-[1.05] text-center">
           Eng<br />Speak
         </span>
-        <span className="font-bold text-brand text-lg">EngSpeak</span>
+        <span className="font-bold text-brand text-lg">{APP_NAME}</span>
         <span className="text-sm text-slate-500 truncate">영어 회화</span>
       </Link>
       <Link to="/settings" aria-label="설정" className="rounded-full p-2 text-slate-700 hover:bg-slate-100">
