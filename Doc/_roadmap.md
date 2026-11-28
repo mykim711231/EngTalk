@@ -70,5 +70,6 @@
 ## 앱 구현 시점
 
 - 전권 240과의 교재 JSON 변환을 완료했습니다: `app/scripts/build-content.mjs`, `app/scripts/verify-content.mjs` → `app/public/data`.
-- 다음은 PWA 뼈대, 과 선택·학습 화면, 음성 재생, 오프라인 저장 구현입니다.
+- EngTalk PWA 기본 화면(홈·경로·레슨·설정), 기기 영어 음성, 오프라인 데이터 저장을 구현했습니다: https://mykim711231.github.io/EngTalk/
+- 다음은 10분 데일리, 심화 학습, 복습, 녹음 음성/오프라인 음원입니다.
 - 앱을 만들 때 EngTalk 저장 키와 `/EngTalk/` 배포 경로를 ChinTalk·ChinSpeak와 분리합니다.
