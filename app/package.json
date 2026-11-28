@@ -1,0 +1,10 @@
+{
+  "name": "engtalk",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build:content": "node scripts/build-content.mjs",
+    "verify:content": "node scripts/verify-content.mjs"
+  }
+}

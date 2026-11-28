@@ -69,6 +69,6 @@
 
 ## 앱 구현 시점
 
-- 전권 240과가 완성되어 교재 JSON 변환과 학습 화면 구현을 시작할 수 있습니다.
-- 그 전에는 Doc 양식과 검수 규칙을 고정하는 데 집중합니다.
+- 전권 240과의 교재 JSON 변환을 완료했습니다: `app/scripts/build-content.mjs`, `app/scripts/verify-content.mjs` → `app/public/data`.
+- 다음은 PWA 뼈대, 과 선택·학습 화면, 음성 재생, 오프라인 저장 구현입니다.
 - 앱을 만들 때 EngTalk 저장 키와 `/EngTalk/` 배포 경로를 ChinTalk·ChinSpeak와 분리합니다.
