@@ -83,6 +83,9 @@ export default function LessonPage() {
       </header>
 
       <div className="flex flex-wrap gap-2">
+        <Link to={`/daily?id=${lesson.id}`} className="inline-flex items-center gap-1.5 rounded-full bg-brand px-3 py-1.5 text-sm font-semibold text-white">
+          <Icon name="timer" size={14} /> 10분 데일리
+        </Link>
         <button type="button" onClick={() => { if (playing) stopAll(); else if (lesson.dialogs[0]) void playDialog(lesson.dialogs[0]); }} className={chip(!!playing)} disabled={!lesson.dialogs[0]}>
           <span className="inline-flex items-center gap-1"><Icon name={playing ? 'stop' : 'play'} size={14} /> 기본 대화 듣기</span>
         </button>

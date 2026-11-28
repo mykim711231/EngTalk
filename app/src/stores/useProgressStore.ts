@@ -8,9 +8,11 @@ const today = () => {
 
 type P = {
   done: Record<string, true>;
+  dailyDone: Record<string, string>;
   last?: string;
   days: Record<string, true>;
   markDone: (id: string) => void;
+  markDaily: (id: string) => void;
   setLast: (id: string) => void;
 };
 
@@ -18,8 +20,10 @@ export const useProgressStore = create<P>()(
   persist(
     (set) => ({
       done: {},
+      dailyDone: {},
       days: {},
       markDone: (id) => set((s) => ({ done: { ...s.done, [id]: true }, days: { ...s.days, [today()]: true }, last: id })),
+      markDaily: (id) => set((s) => ({ dailyDone: { ...s.dailyDone, [id]: today() }, days: { ...s.days, [today()]: true }, last: id })),
       setLast: (last) => set({ last }),
     }),
     { name: 'engtalk-progress' },

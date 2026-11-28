@@ -51,6 +51,18 @@ export default function HomePage() {
         </Link>
       )}
 
+      {next && (
+        <Link to={`/daily?id=${next.id}`} className="card flex items-center gap-3">
+          <span className="grid h-11 w-11 place-items-center rounded-full bg-brand-50 text-brand"><Icon name="timer" size={22} /></span>
+          <div className="min-w-0 flex-1">
+            <p className="text-xs text-slate-500">10분 데일리</p>
+            <p className="font-semibold">6단계로 대화 듣기</p>
+            <p className="text-xs text-slate-500">자막 없이 → 스크립트 → 따라 말하기</p>
+          </div>
+          <Icon name="chevronRight" size={18} className="text-slate-400" />
+        </Link>
+      )}
+
       <section className="card space-y-2">
         <div className="flex items-baseline justify-between">
           <h2 className="font-bold">학습 진도</h2>
